@@ -9,10 +9,7 @@ export const routes: Routes = [
     component: LayoutComponent,
     children: [
       { path: '', component: HomeComponent },
+      { path: 'privacy-policy', component: PrivacyPolicyComponent }
     ]
-  },
-  {
-    path: 'privacy-policy',
-    component: PrivacyPolicyComponent
   }
 ];
