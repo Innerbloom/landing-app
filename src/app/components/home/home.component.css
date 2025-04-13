@@ -1,0 +1,81 @@
+.container {
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  color: #222;
+  background: linear-gradient(180deg, #ffffff 0%, #fff7f0 100%);
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.image {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  .screenshot {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 12px;
+    margin: 20px 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 700;
+  margin: 30px 0 10px;
+}
+
+.tagline {
+  font-size: 18px;
+  color: #555;
+}
+
+.features {
+  text-align: left;
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 0;
+  list-style: none;
+  line-height: 1.8;
+  font-size: 16px;
+}
+
+.features li::before {
+  content: "\2022";
+  color: orange;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.download-button {
+  display: inline-block;
+  margin: 30px 0;
+  padding: 14px 30px;
+  background: #007aff;
+  color: white;
+  border-radius: 10px;
+  font-size: 16px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.download-button:hover {
+  background: #005bd1;
+}
+
+footer {
+  margin-top: 50px;
+  font-size: 14px;
+  color: #888;
+}
+
+.footer-link {
+  color: #007aff;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 8px;
+}
